@@ -1,0 +1,6 @@
+2025-10-17 20:08:14.939405-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERFILDATA_CRIACAO" not found; SQL statement:
+SELECT * FROM PERFILDATA_CRIACAO [42102-232]
+2025-10-22 19:50:31.659587-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FUNCIONARIOS" not found; SQL statement:
+SELECT * FROM funcionarios WHERE YEAR(data_nascimento) >= 2000 [42102-232]
